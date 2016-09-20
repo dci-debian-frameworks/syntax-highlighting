@@ -2,3 +2,4 @@ usr/lib/*/cmake/KF5SyntaxHighlighting
 usr/include/KF5/SyntaxHighlighting
 usr/lib/*/qt5/mkspecs/modules/qt_SyntaxHighlighting.pri
 usr/include/KF5/syntaxhighlighting_version.h
+usr/lib/*/libKF5SyntaxHighlighting.so
