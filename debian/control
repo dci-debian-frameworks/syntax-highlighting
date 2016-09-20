@@ -8,6 +8,7 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 5.21.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4.0~),
+               libqt5xmlpatterns5-dev (>= 5.4.0~),
                perl
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
@@ -19,23 +20,39 @@ Section: libdevel
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
+         libqt5xmlpatterns5-dev (>= 5.4.0~),
          ${misc:Depends}
-Description: Resource and network access abstraction.
- KDE Input/Output framework provides a single API for
- operating on files, whether local or on a remote server.
- Additionally, KIO Slaves provide support for individual
- protocols. Some particularly useful ones are http, ftp,
- sftp, smb, nfs, ssh (fish), man, tar and zip.
+Description: Syntax highlighting Engine.
+ This is a stand-alone implementation of the Kate syntax 
+ highlighting engine. It's meant as a building block for
+ text editors as well as for simple highlighted text 
+ rendering (e.g. as HTML), supporting both integration 
+ with a custom editor as well as a ready-to-use 
+ QSyntaxHighlighter sub-class.
  .
- Contains development files for kio.
+ Contains development files for libkf5syntaxhighlighting5.
 
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Resource and network access abstraction.
- KDE Input/Output framework provides a single API for
- operating on files, whether local or on a remote server.
- Additionally, KIO Slaves provide support for individual
- protocols. Some particularly useful ones are http, ftp,
- sftp, smb, nfs, ssh (fish), man, tar and zip.
+Description: Syntax highlighting Engine.
+ This is a stand-alone implementation of the Kate syntax 
+ highlighting engine. It's meant as a building block for
+ text editors as well as for simple highlighted text 
+ rendering (e.g. as HTML), supporting both integration 
+ with a custom editor as well as a ready-to-use 
+ QSyntaxHighlighter sub-class.
+ .
 
+Package: libkf5syntaxhighlighting5-tools
+Architecture: any
+Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),${misc:Depends}, ${shlibs:Depends}
+Description: Syntax highlighting Engine.
+ This is a stand-alone implementation of the Kate syntax 
+ highlighting engine. It's meant as a building block for
+ text editors as well as for simple highlighted text 
+ rendering (e.g. as HTML), supporting both integration 
+ with a custom editor as well as a ready-to-use 
+ QSyntaxHighlighter sub-class.
+ .
+ Provides additional tools for libkf5syntaxhighlighting5
