@@ -1,0 +1,6 @@
+syntax-highlighting (5.26.0-0neon) xenial; urgency=medium
+
+  * Initial release
+
+ -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:32:19 +0000
+

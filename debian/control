@@ -1,0 +1,41 @@
+Source: syntax-highlighting
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.21.0~),
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev (>= 5.4.0~),
+               perl
+Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
+
+Package: syntax-highlighting-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4.0~),
+         ${misc:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+ .
+ Contains development files for kio.
+
+Package: libkf5syntaxhighlighting5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Resource and network access abstraction.
+ KDE Input/Output framework provides a single API for
+ operating on files, whether local or on a remote server.
+ Additionally, KIO Slaves provide support for individual
+ protocols. Some particularly useful ones are http, ftp,
+ sftp, smb, nfs, ssh (fish), man, tar and zip.
+
