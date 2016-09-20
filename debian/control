@@ -15,7 +15,7 @@ Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
 
-Package: syntax-highlighting-dev
+Package: libkf5syntaxhighlighting5-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
