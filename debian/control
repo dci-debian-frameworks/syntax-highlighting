@@ -15,7 +15,7 @@ Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
 
-Package: libkf5syntaxhighlighting5-dev
+Package: libkf5syntaxhighlighting-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
@@ -44,7 +44,7 @@ Description: Syntax highlighting Engine.
  QSyntaxHighlighter sub-class.
  .
 
-Package: libkf5syntaxhighlighting5-tools
+Package: libkf5syntaxhighlighting-tools
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),${misc:Depends}, ${shlibs:Depends}
 Description: Syntax highlighting Engine.
