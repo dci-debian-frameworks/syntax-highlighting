@@ -6,10 +6,10 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.21.0~),
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~),
                libqt5xmlpatterns5-dev (>= 5.4.0~),
-               perl
+               perl,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
@@ -19,15 +19,15 @@ Package: libkf5syntaxhighlighting-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4.0~),
          libqt5xmlpatterns5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
 Description: Syntax highlighting Engine
- This is a stand-alone implementation of the Kate syntax 
+ This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
- text editors as well as for simple highlighted text 
- rendering (e.g. as HTML), supporting both integration 
- with a custom editor as well as a ready-to-use 
+ text editors as well as for simple highlighted text
+ rendering (e.g. as HTML), supporting both integration
+ with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
  .
  Contains development files for libkf5syntaxhighlighting5.
@@ -36,23 +36,25 @@ Package: libkf5syntaxhighlighting5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Syntax highlighting Engine
- This is a stand-alone implementation of the Kate syntax 
+ This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
- text editors as well as for simple highlighted text 
- rendering (e.g. as HTML), supporting both integration 
- with a custom editor as well as a ready-to-use 
+ text editors as well as for simple highlighted text
+ rendering (e.g. as HTML), supporting both integration
+ with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
  .
 
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
-Depends: libkf5syntaxhighlighting5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Syntax highlighting Engine
- This is a stand-alone implementation of the Kate syntax 
+ This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
- text editors as well as for simple highlighted text 
- rendering (e.g. as HTML), supporting both integration 
- with a custom editor as well as a ready-to-use 
+ text editors as well as for simple highlighted text
+ rendering (e.g. as HTML), supporting both integration
+ with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
  .
  Provides additional tools for libkf5syntaxhighlighting5
