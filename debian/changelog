@@ -1,8 +1,8 @@
-syntax-highlighting (5.27.0~git20161015-1~) UNRELEASED; urgency=medium
+syntax-highlighting (5.27.0~git20161015-1) experimental; urgency=medium
 
   * Initial Debian upload
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 11:14:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 16:02:04 +0200
 
 syntax-highlighting (5.26.0-0neon) xenial; urgency=medium
 
