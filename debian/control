@@ -22,7 +22,7 @@ Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          libqt5xmlpatterns5-dev (>= 5.4.0~),
          ${misc:Depends}
-Description: Syntax highlighting Engine.
+Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax 
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text 
@@ -35,7 +35,7 @@ Description: Syntax highlighting Engine.
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Syntax highlighting Engine.
+Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax 
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text 
@@ -46,8 +46,8 @@ Description: Syntax highlighting Engine.
 
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
-Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),${misc:Depends}, ${shlibs:Depends}
-Description: Syntax highlighting Engine.
+Depends: libkf5syntaxhighlighting5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax 
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text 
