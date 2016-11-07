@@ -5,12 +5,12 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.26.0~),
-               libqt5xmlpatterns5-dev (>= 5.6.0~),
+               extra-cmake-modules (>= 5.21.0~),
+               libqt5xmlpatterns5-dev (>= 5.4.0~),
                perl,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.6.0~)
-Standards-Version: 3.9.8
+               qtbase5-dev (>= 5.4.0~)
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/syntax-highlighting.git
@@ -19,10 +19,10 @@ Package: libkf5syntaxhighlighting-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
-         libqt5xmlpatterns5-dev (>= 5.6.0~),
-         qtbase5-dev (>= 5.6.0~),
+         libqt5xmlpatterns5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
-Description: Syntax highlighting Engine
+Description: Syntax highlighting Engine.
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text
@@ -35,7 +35,7 @@ Description: Syntax highlighting Engine
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Syntax highlighting Engine
+Description: Syntax highlighting Engine.
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text
@@ -49,7 +49,7 @@ Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Syntax highlighting Engine
+Description: Syntax highlighting Engine.
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
  text editors as well as for simple highlighted text
