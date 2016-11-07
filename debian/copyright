@@ -173,10 +173,13 @@ License: Expat
 
 Files: data/syntax/systemverilog.xml
        data/syntax/vera.xml
+Copyright: Sean O'Boyle <seanoboyle@intelligentdv.com>
 License: GPL-3+
 
 Files: data/syntax/kdesrc-buildrc.xml
        data/syntax/lsl.xml
+Copyright: Michael Pyne <mpyne@kde.org>
+           Rafał Rzepeck
 License: LGPL-3
  license = "LGPLv3"
  .
