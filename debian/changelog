@@ -1,7 +1,10 @@
-ksyntax-highlighting (5.28.0-1~) UNRELEASED; urgency=medium
+ksyntax-highlighting (5.28.0-1~~1.gbp81087a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @81087acfbdc3246f92e94fa0e0b405a07b5b1390 **
 
   * Initial Debian upload
   * New upstream release (5.28.0).
+  * Update install files
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Nov 2016 12:09:46 +0100
 
