@@ -1,12 +1,10 @@
-ksyntax-highlighting (5.28.0-1~1.gbp81087a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @81087acfbdc3246f92e94fa0e0b405a07b5b1390 **
+ksyntax-highlighting (5.28.0-1) unstable; urgency=medium
 
   * Initial Debian upload
-  * New upstream release (5.28.0).
+  * New upstream release (5.28).
   * Update install files
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Nov 2016 12:09:46 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:02:09 +0100
 
 syntax-highlighting (5.26.0-0neon) xenial; urgency=medium
 
