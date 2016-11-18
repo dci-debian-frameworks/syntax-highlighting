@@ -6,7 +6,7 @@
 </version>
 
 <headers>
-    /usr/include/KF5/SyntaxHighlighting/
+    /usr/include/KF5/KSyntaxHighlighting/
 </headers>
 
 <libs>
