@@ -1,8 +1,10 @@
-syntax-highlighting (5.27.0~git20161015-1) experimental; urgency=medium
+ksyntax-highlighting (5.28.0-1) unstable; urgency=medium
 
   * Initial Debian upload
+  * New upstream release (5.28).
+  * Update install files
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 16:02:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:02:09 +0100
 
 syntax-highlighting (5.26.0-0neon) xenial; urgency=medium
 
