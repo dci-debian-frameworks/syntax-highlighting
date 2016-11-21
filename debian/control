@@ -42,7 +42,6 @@ Description: Syntax highlighting Engine
  rendering (e.g. as HTML), supporting both integration
  with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
- .
 
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
