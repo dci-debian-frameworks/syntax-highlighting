@@ -1,7 +1,5 @@
 #!/bin/sh
 
-export QT_LOGGING_RULES="*=true"
-
 [ -e debian/tests.home ] || mkdir debian/tests.home
 trap "rm -rf debian/tests.home" EXIT
 export HOME="$(pwd)/debian/tests.home"
