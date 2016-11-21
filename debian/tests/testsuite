@@ -1,12 +1,6 @@
 #!/bin/sh
 
-# some tests have build path compiled-in, we need to rebuild
-# everything to make sure the path is the temporary one used for
-# the autopkgtest. NB: cmake hates relocation, so we'd have to
-# mangle CMakeCache.txt to get away with a as-needed-rebuild :/
-debian/rules clean 2>&1
-dpkg-source --before-build .
-debian/rules build 2>&1
+export QT_LOGGING_RULES="*=true"
 
 [ -e debian/tests.home ] || mkdir debian/tests.home
 trap "rm -rf debian/tests.home" EXIT
