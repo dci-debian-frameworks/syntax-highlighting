@@ -36,7 +36,7 @@ Description: Syntax highlighting Engine
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5syntaxhighlighting5-data (= ${source:Version}),
+Depends: libkf5syntaxhighlighting-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Syntax highlighting Engine
