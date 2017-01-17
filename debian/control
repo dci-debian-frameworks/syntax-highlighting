@@ -38,6 +38,7 @@ Multi-Arch: same
 Depends: libkf5syntaxhighlighting5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Architecture: any
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -47,6 +48,7 @@ Description: Syntax highlighting Engine
  QSyntaxHighlighter sub-class.
 
 Package: libkf5syntaxhighlighting-data
+Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Syntax highlighting Engine - translations
