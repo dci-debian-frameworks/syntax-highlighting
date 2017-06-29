@@ -34,6 +34,7 @@ Description: Syntax highlighting Engine
  Contains development files for libkf5syntaxhighlighting5.
 
 Package: libkf5syntaxhighlighting5
+Architecture: any
 Multi-Arch: same
 Depends: libkf5syntaxhighlighting5-data (= ${source:Version}),
          ${misc:Depends},
@@ -47,6 +48,7 @@ Description: Syntax highlighting Engine
  QSyntaxHighlighter sub-class.
 
 Package: libkf5syntaxhighlighting-data
+Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Syntax highlighting Engine - translations
