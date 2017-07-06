@@ -1,8 +1,17 @@
-ksyntax-highlighting (5.35.0-1~) UNRELEASED; urgency=medium
+ksyntax-highlighting (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Add qttools5-dev-tools missing build dep
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:37:07 +0200
+  [ Jonathan Riddell ]
+  * add libkf5syntaxhighlighting-data for translations
+  * fix depends
+  * add signature
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jul 2017 12:53:24 +0200
 
 ksyntax-highlighting (5.28.0-1) unstable; urgency=medium
 
