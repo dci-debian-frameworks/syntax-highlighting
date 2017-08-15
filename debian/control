@@ -64,6 +64,7 @@ Description: Syntax highlighting Engine (documentation)
  QSyntaxHighlighter sub-class.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
