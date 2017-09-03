@@ -1,8 +1,11 @@
-ksyntax-highlighting (5.37.0-2~) UNRELEASED; urgency=medium
+ksyntax-highlighting (5.37.0-2) sid; urgency=medium
 
   * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Aug 2017 21:59:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:58:48 +0200
 
 ksyntax-highlighting (5.37.0-1) experimental; urgency=medium
 
