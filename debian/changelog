@@ -4,65 +4,45 @@ ksyntax-highlighting (5.39.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:48:05 +0000
 
-ksyntax-highlighting (5.38.0-0neon) xenial; urgency=medium
+ksyntax-highlighting (5.37.0-2) sid; urgency=medium
 
-  * New release
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:32:23 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:58:48 +0200
 
-ksyntax-highlighting (5.37.0-0neon) xenial; urgency=medium
+ksyntax-highlighting (5.37.0-1) experimental; urgency=medium
 
-  * New release
+  * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5syntaxhighlighting-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set section for the doc package
+  * Release to experimental
 
- -- Neon CI <neon@kde.org>  Fri, 11 Aug 2017 15:18:38 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:42:16 +0200
 
-ksyntax-highlighting (5.36.0-0neon) xenial; urgency=medium
+ksyntax-highlighting (5.36.0-1) experimental; urgency=medium
 
-  * New release
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Add qttools5-dev-tools missing build dep
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
- -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:16:04 +0000
+  [ Jonathan Riddell ]
+  * add libkf5syntaxhighlighting-data for translations
+  * fix depends
+  * add signature
 
-ksyntax-highlighting (5.35.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:38:41 +0000
-
-ksyntax-highlighting (5.34.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:44:08 +0000
-
-ksyntax-highlighting (5.33.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:26:50 +0000
-
-ksyntax-highlighting (5.32.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:24:39 +0000
-
-ksyntax-highlighting (5.31.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:42:31 +0000
-
-ksyntax-highlighting (5.30.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:45:06 +0000
-
-ksyntax-highlighting (5.29.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:28 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:41:20 +0200
 
 ksyntax-highlighting (5.28.0-1) unstable; urgency=medium
 
