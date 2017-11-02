@@ -63,21 +63,6 @@ Description: Syntax highlighting Engine (documentation)
  with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
 
-Package: libkf5syntaxhighlighting-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Syntax highlighting Engine - translations
- This is a stand-alone implementation of the Kate syntax
- highlighting engine. It's meant as a building block for
- text editors as well as for simple highlighted text
- rendering (e.g. as HTML), supporting both integration
- with a custom editor as well as a ready-to-use
- QSyntaxHighlighter sub-class.
- .
- This package contains the qch documentation files.
-Section: doc
-
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
