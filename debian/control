@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 3.0~),
                perl,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev-tools (>= 5.4),
+               qttools5-dev-tools (>= 5.4)
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/ksyntax-highlighting.git
@@ -39,7 +39,7 @@ Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          libqt5xmlpatterns5-dev (>= 5.7.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends},
+         ${misc:Depends}
 Recommends: libkf5syntaxhighlighting-doc (= ${source:Version})
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
@@ -55,6 +55,7 @@ Package: libkf5syntaxhighlighting-doc
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Section: doc
 Description: Syntax highlighting Engine (documentation)
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -67,7 +68,7 @@ Package: libkf5syntaxhighlighting-tools
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -84,7 +85,7 @@ Multi-Arch: same
 Breaks: libkf5texteditor5 (<< 5.37)
 Depends: libkf5syntaxhighlighting-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
