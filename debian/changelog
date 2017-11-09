@@ -1,3 +1,11 @@
+ksyntax-highlighting (5.37.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Change build-dependency from qttools5-dev-tools to qttools5-dev.
+    (Closes: #881081)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 09 Nov 2017 13:42:05 +0300
+
 ksyntax-highlighting (5.37.0-2) sid; urgency=medium
 
   * New revision
