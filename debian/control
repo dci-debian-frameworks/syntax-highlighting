@@ -13,6 +13,7 @@ Build-Depends: cmake (>= 3.0~),
                perl,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
+               qttools5-dev,
                qttools5-dev-tools (>= 5.4)
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/frameworks/syntax-highlighting
