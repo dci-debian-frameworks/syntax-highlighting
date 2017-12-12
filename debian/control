@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                doxygen,
-               extra-cmake-modules (>= 5.38.0~),
+               extra-cmake-modules (>= 5.41.0~),
                graphviz,
                libqt5sql5-sqlite,
                libqt5xmlpatterns5-dev (>= 5.7.0~),
@@ -39,7 +39,7 @@ Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          libqt5xmlpatterns5-dev (>= 5.7.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Recommends: libkf5syntaxhighlighting-doc (= ${source:Version})
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
@@ -68,7 +68,7 @@ Package: libkf5syntaxhighlighting-tools
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -85,7 +85,7 @@ Multi-Arch: same
 Breaks: libkf5texteditor5 (<< 5.37)
 Depends: libkf5syntaxhighlighting-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
