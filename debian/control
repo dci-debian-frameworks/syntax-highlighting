@@ -39,7 +39,7 @@ Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          libqt5xmlpatterns5-dev (>= 5.7.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends},
+         ${misc:Depends}
 Recommends: libkf5syntaxhighlighting-doc (= ${source:Version})
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
@@ -55,6 +55,7 @@ Package: libkf5syntaxhighlighting-doc
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Section: doc
 Description: Syntax highlighting Engine (documentation)
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -62,15 +63,12 @@ Description: Syntax highlighting Engine (documentation)
  rendering (e.g. as HTML), supporting both integration
  with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
- .
- This package contains the qch documentation files.
-Section: doc
 
 Package: libkf5syntaxhighlighting-tools
 Architecture: any
 Depends: libkf5syntaxhighlighting5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -84,9 +82,10 @@ Description: Syntax highlighting Engine
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Multi-Arch: same
+Breaks: libkf5texteditor5 (<< 5.37)
 Depends: libkf5syntaxhighlighting-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
  highlighting engine. It's meant as a building block for
@@ -94,4 +93,3 @@ Description: Syntax highlighting Engine
  rendering (e.g. as HTML), supporting both integration
  with a custom editor as well as a ready-to-use
  QSyntaxHighlighter sub-class.
-Breaks: libkf5texteditor5 (<< 5.37)
