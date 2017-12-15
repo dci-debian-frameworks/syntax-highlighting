@@ -1,8 +1,11 @@
-ksyntax-highlighting (5.41.0-1~) UNRELEASED; urgency=medium
+ksyntax-highlighting (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 16:13:34 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:05 -0300
 
 ksyntax-highlighting (5.41.0-0neon) xenial; urgency=medium
 
