@@ -82,7 +82,7 @@ Description: Syntax highlighting Engine
 Package: libkf5syntaxhighlighting5
 Architecture: any
 Multi-Arch: same
-Breaks: libkf5texteditor5 (<< 5.41)
+Breaks: libkf5texteditor5 (<< 5.42)
 Depends: libkf5syntaxhighlighting-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
